@@ -5,6 +5,7 @@ import "./SafeMath.sol";
 /**
  * @title Node assignment contract
  */
+ 
 contract NEST_NodeAssignment {
     
     using SafeMath for uint256;
