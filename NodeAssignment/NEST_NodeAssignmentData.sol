@@ -1,11 +1,11 @@
-pragma solidity 0.5.10;
+pragma solidity 0.6.10;
 
 import "./SafeMath.sol";
 
 /**
  * @title Guardian node receives data
  */
- 
+
 contract NEST_NodeAssignmentData {
     using SafeMath for uint256;
     IBMapping mappingContract;              
