@@ -31,7 +31,6 @@ contract NEST_NodeAssignmentData {
     function addNest(uint256 amount) public onlyNodeAssignment {
         nodeAllAmount = nodeAllAmount.add(amount);
     }
-    
     //  View cumulative total
     function checkNodeAllAmount() public view returns (uint256) {
         return nodeAllAmount;
