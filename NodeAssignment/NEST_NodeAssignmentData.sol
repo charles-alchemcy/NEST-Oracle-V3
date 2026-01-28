@@ -5,6 +5,7 @@ import "./SafeMath.sol";
 /**
  * @title Guardian node receives data
  */
+ 
 contract NEST_NodeAssignmentData {
     using SafeMath for uint256;
     IBMapping mappingContract;              
