@@ -3,7 +3,6 @@ pragma solidity 0.6.0;
 import "../Lib/SafeMath.sol";
 import "../Lib/AddressPayable.sol";
 import "../Lib/SafeERC20.sol";
-
 /**
  * @title Offering contract
  * @dev Offering + take order + NEST allocation

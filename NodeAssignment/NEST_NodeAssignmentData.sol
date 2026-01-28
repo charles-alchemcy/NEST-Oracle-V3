@@ -11,7 +11,6 @@ contract NEST_NodeAssignmentData {
     IBMapping mappingContract;              
     uint256 nodeAllAmount = 9546345842385995696603;                                 
     mapping(address => uint256) nodeLatestAmount;               
-    
     /**
     * @dev Initialization method
     * @param map Mapping contract address
@@ -32,7 +31,6 @@ contract NEST_NodeAssignmentData {
     function addNest(uint256 amount) public onlyNodeAssignment {
         nodeAllAmount = nodeAllAmount.add(amount);
     }
-    
     //  View cumulative total
     function checkNodeAllAmount() public view returns (uint256) {
         return nodeAllAmount;
