@@ -7,6 +7,7 @@ import "../Lib/SafeERC20.sol";
  * @title Offering contract
  * @dev Offering + take order + NEST allocation
  */
+ 
 contract Nest_3_OfferMain {
     using SafeMath for uint256;
     using address_make_payable for address;
