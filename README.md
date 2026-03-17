@@ -8,7 +8,6 @@ The NEST Oracle 3.0 is a solidity smart contract implementation of NEST Protocol
 Thank you for considering to help out with the source code! We welcome contributions from anyone on the internet, and are grateful for even the smallest of fixes!
 
 If you'd like to contribute to NEST Oracle 3.0, please fork, fix, commit and send a pull request for the developers to review and merge into the main code base!
-
 ## Contract Interface
 
 ## Contract Addresses
