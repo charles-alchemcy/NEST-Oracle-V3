@@ -7,6 +7,7 @@ import "../Lib/AddressPayable.sol";
  * @title ETH bonus pool
  * @dev ETH collection and inquiry
  */
+ 
 contract Nest_3_Abonus {
     using address_make_payable for address;
     using SafeMath for uint256;
