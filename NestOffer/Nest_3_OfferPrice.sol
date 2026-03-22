@@ -4,6 +4,7 @@ import "../Lib/SafeMath.sol";
 import "../Lib/AddressPayable.sol";
 import "../Lib/SafeERC20.sol";
 
+
 /**
  * @title Price contract
  * @dev Price check and call

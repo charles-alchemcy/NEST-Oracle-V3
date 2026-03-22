@@ -9,6 +9,7 @@ import "../Lib/SafeMath.sol";
 contract Nest_3_VoteFactory {
     using SafeMath for uint256;
     
+    
     uint256 _limitTime = 7 days;                                    //  Vote duration
     uint256 _NNLimitTime = 1 days;                                  //  NestNode raising time
     uint256 _circulationProportion = 51;                            //  Proportion of votes to pass
