@@ -8,12 +8,12 @@ import "../Lib/SafeERC20.sol";
  * @dev Offering + take order + NEST allocation
  */
  
- 
+
 contract Nest_3_OfferMain {
     using SafeMath for uint256;
     using address_make_payable for address;
     using SafeERC20 for ERC20;
-    
+
     struct Nest_3_OfferPriceData {
         // The unique identifier is determined by the position of the offer in the array, and is converted to each other through a fixed algorithm (toindex(), toaddress())
         
